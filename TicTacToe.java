@@ -1255,7 +1255,7 @@ class TicTacToe
 	//ge.clearScreen();
 
 	System.out.println("Do You Want To Continue Then Press Y If No The Press Any Key");
-	char yes = sc.next().charAt(0);;
+	char yes = sc.next().charAt(0);
 	if(yes == 'Y' || yes == 'y')
 	{
 		 //TimeUnit.SECONDS.wait(10);
