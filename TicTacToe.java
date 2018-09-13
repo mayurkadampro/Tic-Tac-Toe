@@ -556,7 +556,7 @@ class TicTacToe
 	if(arr[0][0] == "X" && arr[0][1] == "X" && arr[0][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -565,7 +565,7 @@ class TicTacToe
 	{
 		
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -574,7 +574,7 @@ class TicTacToe
 	}else if(arr[1][0] == "X" && arr[1][1] == "X" && arr[1][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -582,21 +582,21 @@ class TicTacToe
 	}else if(arr[1][0] == "O" && arr[1][1] == "O" && arr[1][2] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[2][0] == "X" && arr[2][1] == "X" && arr[2][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[2][0] == "O" && arr[2][1] == "O" && arr[2][2] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -604,7 +604,7 @@ class TicTacToe
 	}else if(arr[0][0] == "X" && arr[1][0] == "X" && arr[2][0] == "X")
 	{
 	    Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -612,21 +612,21 @@ class TicTacToe
 	}else if(arr[0][0] == "O" && arr[1][0] == "O" && arr[2][0] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[0][1] == "X" && arr[1][1] == "X" && arr[2][1] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[0][1] == "O" && arr[1][1] == "O" && arr[2][1] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -634,7 +634,7 @@ class TicTacToe
 	}else if(arr[0][2] == "X" && arr[1][2] == "X" && arr[2][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -642,7 +642,7 @@ class TicTacToe
 	}else if(arr[0][2] == "O" && arr[1][2] == "O" && arr[2][2] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -650,7 +650,7 @@ class TicTacToe
 	}else if(arr[0][0] == "X" && arr[1][1] == "X" && arr[2][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -658,21 +658,21 @@ class TicTacToe
 	}else if(arr[0][0] == "O" && arr[1][1] == "O" && arr[2][2] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[0][2] == "X" && arr[1][1] == "X" && arr[2][0] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[0][2] == "O" && arr[1][1] == "O" && arr[2][0] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -739,7 +739,7 @@ class TicTacToe
 	if(arr[0][0] == "X" && arr[0][1] == "X" && arr[0][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -748,7 +748,7 @@ class TicTacToe
 	{
 		
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -757,7 +757,7 @@ class TicTacToe
 	}else if(arr[1][0] == "X" && arr[1][1] == "X" && arr[1][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -765,21 +765,21 @@ class TicTacToe
 	}else if(arr[1][0] == "O" && arr[1][1] == "O" && arr[1][2] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[2][0] == "X" && arr[2][1] == "X" && arr[2][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[2][0] == "O" && arr[2][1] == "O" && arr[2][2] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -787,7 +787,7 @@ class TicTacToe
 	}else if(arr[0][0] == "X" && arr[1][0] == "X" && arr[2][0] == "X")
 	{
 	    Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -795,21 +795,21 @@ class TicTacToe
 	}else if(arr[0][0] == "O" && arr[1][0] == "O" && arr[2][0] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[0][1] == "X" && arr[1][1] == "X" && arr[2][1] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[0][1] == "O" && arr[1][1] == "O" && arr[2][1] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -817,7 +817,7 @@ class TicTacToe
 	}else if(arr[0][2] == "X" && arr[1][2] == "X" && arr[2][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -825,7 +825,7 @@ class TicTacToe
 	}else if(arr[0][2] == "O" && arr[1][2] == "O" && arr[2][2] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -833,7 +833,7 @@ class TicTacToe
 	}else if(arr[0][0] == "X" && arr[1][1] == "X" && arr[2][2] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
@@ -841,21 +841,21 @@ class TicTacToe
 	}else if(arr[0][0] == "O" && arr[1][1] == "O" && arr[2][2] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[0][2] == "X" && arr[1][1] == "X" && arr[2][0] == "X")
 	{
 		Player1score += 1;
-		System.out.println("Player one is won");
+		System.out.println("Player one has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
 	}else if(arr[0][2] == "O" && arr[1][1] == "O" && arr[2][0] == "O")
 	{
 		Player2score += 1;
-		System.out.println("Player Two is won");
+		System.out.println("Player Two has won");
 		System.out.println("\t Player 1 = X \t\t\t\t\t\t\t\t\t\t Player 1 Score = "+Player1score);
 		System.out.println("\t Player 2 = O \t\t\t\t\t\t\t\t\t\t Player 2 Score = "+Player2score);
 		System.exit(0);
